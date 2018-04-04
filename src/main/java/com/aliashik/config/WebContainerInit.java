@@ -25,7 +25,7 @@ public class WebContainerInit implements WebApplicationInitializer {
 
         servletContext.addListener(new ContextLoaderListener(context));
         servletContext.setInitParameter(
-                "contextConfigLocation", "com.aliashik");
+                "contextConfigLocation", "com.aliashik.config");
     }
     
 

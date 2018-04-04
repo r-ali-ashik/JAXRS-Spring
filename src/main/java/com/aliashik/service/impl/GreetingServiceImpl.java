@@ -4,7 +4,6 @@ package com.aliashik.service.impl;
 import com.aliashik.dao.GeeetingDao;
 import com.aliashik.service.GreetingService;
 import org.apache.log4j.Logger;
-import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
